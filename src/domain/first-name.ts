@@ -1,3 +1,3 @@
 import { StringValueObject } from './string-value-object';
 
-export class Name extends StringValueObject {}
+export class FirstName extends StringValueObject {}

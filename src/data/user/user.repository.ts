@@ -1,6 +1,6 @@
 import * as admin from 'firebase-admin';
 import { Injectable } from '@nestjs/common';
-import { AbstractRepository } from '../AbstractRepository';
+import { AbstractRepository } from '../abstract-repository';
 
 @Injectable()
 export class UserRepository extends AbstractRepository {
