@@ -1,3 +1,3 @@
-import { StringValueObject } from './StringValueObject';
+import { StringValueObject } from './stringValueObject';
 
 export class Job extends StringValueObject {}
