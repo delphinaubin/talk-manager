@@ -1,6 +1,6 @@
 import { Name } from '../name';
 import { User } from '../user';
-import { FirstName } from '../first-name';
+import { FirstName } from '../firstName';
 import { Job } from '../Job';
 
 export class UserBuilder {

@@ -1,6 +1,6 @@
-import { Name } from './name';
-import { FirstName } from './first-name';
-import { Job } from './job';
+import { Name } from './Name';
+import { FirstName } from './FirstName';
+import { Job } from './Job';
 
 export class User {
   public name: Name;
