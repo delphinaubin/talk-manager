@@ -1,7 +1,7 @@
 import {TalkBuilder} from './TalkBuilder';
 import { Talk } from './Talk';
 import { Name } from '../Name';
-import { User } from '../User';
+import User from '../builder/user/User';
 
 describe('TalkBuilder', () => {
   it('should be able to build a talk from scratch', () => {

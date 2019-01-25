@@ -1,9 +1,9 @@
-import { Name } from '../name';
-import { User } from '../user';
-import { FirstName } from '../firstName';
-import { Job } from '../Job';
+import { Name } from '../../Name';
+import User from '../user/User';
+import { FirstName } from '../../FirstName';
+import { Job } from '../../Job';
 
-export class UserBuilder {
+export default class UserBuilder {
   public static aUser(): UserBuilder {
     return new UserBuilder();
   }

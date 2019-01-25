@@ -5,7 +5,7 @@ import { UserRepository } from './data/user/UserRepository';
 import { TalkController } from './controller/talk/TalkController';
 import { TalkDtoMapper } from './controller/talk/TalkDtoMapper';
 import { TalkRepository } from './data/talk/TalkRepository';
-import { UserController } from './controller/user.controller';
+import { UserController } from './controller/user/userController';
 
 @Module({
   imports: [],

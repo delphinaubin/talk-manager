@@ -1,6 +1,6 @@
 import { Talk } from './Talk';
 import { Name } from '../Name';
-import { User } from '../User';
+import User from '../builder/user/User';
 
 export class TalkBuilder {
   private entityToBuild: Talk;

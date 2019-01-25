@@ -1,4 +1,4 @@
-import { User } from '../User';
+import User from '../builder/user/User';
 import { Name } from '../Name';
 
 export class Talk {
